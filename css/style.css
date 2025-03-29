@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Clicker;
+  src: url(../font/ClickerScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url(../font/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+.clicker {
+  font-family: Clicker;
+}
+
+Body {
+  font-family: PlayfairDisplay;
+}
+
+header {
+  background: linear-gradient(to right, #1e1e1e, rgba(0, 0, 0, 0)),
+    url("../images/coffee_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 100vh;
+}
